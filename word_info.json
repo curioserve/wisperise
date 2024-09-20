@@ -1,0 +1,111 @@
+{
+    "rack": {
+        "word": "rack",
+        "definition": "a framework, typically with rails, bars, hooks, or pegs, on which items can be displayed, stored, or hung",
+        "example_sentences": [
+            "I hung my coat on the rack by the door.",
+            "The store had a rack of gardening tools for sale.",
+            "She displayed her collection of hats on a rack in her bedroom.",
+            "The bike rack was full, so I had to find another place to park my bicycle.",
+            "The kitchen rack was overflowing with pots and pans."
+        ]
+    },
+    "nerve racking": {
+        "word": "nerve racking",
+        "definition": "causing a person to feel very tense, anxious, and stressed",
+        "example_sentences": [
+            "The job interview was nerve-racking, but she managed to remain composed.",
+            "Waiting for the exam results is always nerve-racking.",
+            "His constant procrastination is nerve-racking for his colleagues.",
+            "The suspenseful movie was so nerve-racking that I couldn't sit still.",
+            "Driving in heavy traffic can be nerve-racking for some people."
+        ]
+    },
+    "exhilarating": {
+        "word": "exhilarating",
+        "definition": "causing strong feelings of excitement and happiness",
+        "example_sentences": [
+            "The roller coaster ride was exhilarating, with loops and twists that sent a thrill through her.",
+            "Taking a refreshing swim in the cool ocean on a hot summer day can be quite exhilarating.",
+            "Winning the championship game was an exhilarating moment for the team and their fans.",
+            "Skydiving for the first time is an exhilarating experience that many people find both terrifying and exhilarating.",
+            "The breathtaking view from the mountain peak was truly exhilarating, making the long hike worth every step."
+        ]
+    },
+    "venturing": {
+        "word": "venturing",
+        "definition": "the act or an instance of stepping out or going beyond; foraging, exploration",
+        "example_sentences": [
+            "They were venturing into uncharted territory in search of the lost city.",
+            "As a group, we enjoyed venturing through the dense forest to discover hidden waterfalls.",
+            "The young entrepreneur was excited about venturing into a new business opportunity.",
+            "Venturing outside of her comfort zone, she decided to try bungee jumping for the first time.",
+            "Despite the risks, the team was determined to continue venturing farther into the wilderness."
+        ]
+    },
+    "barely": {
+        "word": "barely",
+        "definition": "only just; almost not",
+        "example_sentences": [
+            "She barely passed the exam with a score of 60%.",
+            "The hikers barely made it to the summit before the storm hit.",
+            "I could barely hear what he was saying over the loud music.",
+            "After running a marathon, she could barely walk due to exhaustion.",
+            "The old car barely made it up the steep hill."
+        ]
+    },
+    "etched in my mind": {
+        "word": "etched in my mind",
+        "definition": "Remembered clearly and vividly; deeply ingrained in one's memory.",
+        "example_sentences": [
+            "The image of her smiling face was etched in my mind long after she had left.",
+            "The ominous warning about the dangerous trails was etched in my mind as I hiked through the forest.",
+            "The haunting melody of the song stayed etched in my mind, playing on repeat throughout the day.",
+            "The taste of that delicious meal was so good that it was etched in my mind for weeks.",
+            "The memory of their heartfelt goodbye was etched in my mind, making me miss them even more."
+        ]
+    },
+    "milestone": {
+        "definition": "A milestone is a significant event or stage in the development or progress of something.",
+        "example_sentences": [
+            "Graduating from college was a major milestone in Sarah's life.",
+            "The company celebrated reaching the milestone of one million customers.",
+            "Learning to ride a bike is a common milestone for young children.",
+            "Successfully completing the project ahead of schedule was a significant milestone for the team.",
+            "Buying their first home together marked a special milestone in their relationship."
+        ]
+    },
+    "overwhelmed": {
+        "word": "overwhelmed",
+        "definition": "defeated completely; too much work or emotion to handle",
+        "example_sentences": [
+            "She felt overwhelmed by all the responsibilities piling up at work.",
+            "After the unexpected news, he was overwhelmed with emotion.",
+            "The sheer number of people at the event overwhelmed her senses.",
+            "Facing multiple deadlines, she became overwhelmed with anxiety.",
+            "The scale of the disaster left the rescue team feeling overwhelmed."
+        ]
+    },
+    "put on": {
+        "word": "put on",
+        "definition": "to dress oneself in specified clothing; to apply or make use of",
+        "example_sentences": [
+            "I need to put on my coat before going outside.",
+            "She decided to put on some makeup for the party.",
+            "He always puts on his favorite music while he works.",
+            "They will put on a play at the school next week.",
+            "Don't forget to put on sunscreen before going to the beach."
+        ]
+    },
+    "psyched": {
+        "word": "psyched",
+        "definition": "excited, enthusiastic, or pumped up about something",
+        "example_sentences": [
+            "I'm psyched about the concert this weekend!",
+            "She was psyched to start her new job.",
+            "Are you psyched for the big game tomorrow?",
+            "We're all psyched for the upcoming vacation.",
+            "He got psyched when he found out he won the contest."
+        ]
+    }
+}
