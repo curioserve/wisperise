@@ -1,0 +1,7 @@
+pandas
+pydub
+simpleaudio
+openai
+torch
+TTS
+
