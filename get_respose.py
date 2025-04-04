@@ -5,22 +5,50 @@ API_KEY = ""
 # Initialize the client with your API key
 client = openai.OpenAI(api_key=API_KEY)
 
-def get_word_info(word):
-    # Construct the prompt for ChatGPT
+import requests
+import json
+
+def get_word_info(api_key, word):
+    # Construct the prompt for Gemini
     prompt = f"Define the word '{word}' and provide five example sentences using the word.(give response as json)"
+    
+    # Define the Gemini API URL
+    url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent?key=" + api_key
 
-    # Use the client to create a chat completion
-    response = client.chat.completions.create(
-        model="gpt-3.5-turbo",  # Specify the model, adjust as necessary
-        messages=[
-            {"role": "system", "content": "You are a helpful assistant."},
-            {"role": "user", "content": prompt}
+    # Headers for the request
+    headers = {
+        "Content-Type": "application/json",
+    }
+
+    # Payload for the request
+    payload = {
+        "contents": [
+            {
+                "parts": [
+                    {
+                        "text": prompt
+                    }
+                ]
+            }
         ]
-    )
+    }
 
-    # Extract and return the response text
-    info_dict = response.to_dict()['choices'][0]['message']['content']
-    return json.loads(info_dict)
+    # Send the request to Gemini
+    response = requests.post(url, headers=headers, data=json.dumps(payload))
+
+    # Check the response status code
+    if response.status_code == 200:
+        # Parse and return the JSON response
+        response_json = response.json()
+        info_dict = response_json['results'][0]['parts'][0]['text']
+        return json.loads(info_dict)
+    else:
+        # Handle failure response
+        print(f"Failed to get response. Status code: {response.status_code}")
+        print(f"Response: {response.text}")
+        return None
+
+
 
 
 def process_words_from_csv(csv_file_path):
