@@ -1,7 +1,11 @@
-pandas
-pydub
-simpleaudio
-openai
-torch
-TTS
+# Core (LM Studio client)
+openai>=1.40.0
 
+# TTS (voice cloning) — required only if you use --make-tts
+TTS>=0.22.0
+torch>=2.1.0
+torchaudio>=2.1.0
+
+# Audio mixing & MP3 conversion — required only if you use --mix-bgm or --to-mp3
+pydub>=0.25.1
+simpleaudio>=1.0.4
